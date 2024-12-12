@@ -1,0 +1,27 @@
+.inpContainer {
+    width: 1060px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 13px;
+}
+
+.input {
+    width: 100%;
+    border: 1px solid #00ff48;
+    border-radius: 5px;
+    padding: 8px 0 8px 16px;
+}
+
+.input:focus {
+    outline: 2px solid #00ff48;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #00ff48;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
